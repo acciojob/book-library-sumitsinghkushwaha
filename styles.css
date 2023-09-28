@@ -11,6 +11,10 @@ body{
 .book p{
 	background-color: #777777;
 }
+.book{
+	background-color: #f8f8f8;
+	padding:30px;
+}
 .book img{
 	display: block;
 	margin-left:auto;
@@ -21,4 +25,6 @@ body{
 .book div p{
 	background-color: #2ecc71 ;
 	text-align: center;
+	color:white;
+	
 }
