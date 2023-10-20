@@ -1,31 +1,40 @@
-/*  your css code here. If applicable */
-body{
-	background-color: rgb(46, 204, 113);
-/* 		#f8f8f8; */
-	
-}
-.book-library{
-	background-color: #ffffff;
-	border-radius:10px;
-	box-shadow:0px 0px 10px grey;
-}
-.book p{
-	background-color: #777777;
-}
-.book{
-	background-color: #f8f8f8;
-	padding:30px;
-}
-.book img{
-	display: block;
-	margin-left:auto;
-	margin-right:auto;
-	
+/* styles.css */
+body {
+    background-color: rgb(46, 204, 113);
+    margin: 0;
+    padding: 0;
 }
 
-.book div p{
-	background-color: #2ecc71 ;
-	text-align: center;
-	color:white;
-	
+.book-library {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.book {
+    background-color: #f8f8f8;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.book img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.book p {
+    background-color: #777777;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+.book div p {
+    background-color: #2ecc71;
 }
